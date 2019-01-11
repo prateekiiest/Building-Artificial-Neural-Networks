@@ -51,7 +51,7 @@ for i in range(4):
     ax[i].imshow(Image.open(imgs[i]).resize((120, 120), Image.ANTIALIAS))
 plt.show()
 
-
+# Image Plot : https://github.com/prateekiiest/Building-Artificial-Neural-Networks/blob/master/Convolution%20Neural%20Network/plots/flower.png
 
 # Here, we develop the CNN Model
 
@@ -103,6 +103,8 @@ plt.ylabel('Loss')
 
 plt.show()
 
+# Accuracy Plot : https://github.com/prateekiiest/Building-Artificial-Neural-Networks/blob/master/Convolution%20Neural%20Network/plots/trainin.png
+
 
 # We now perform the classification procedure for the images converted to grayscale
 
@@ -120,6 +122,8 @@ for i in range(4):
     ax[i].imshow(Image.open(imgs[i]).resize((120, 120), Image.ANTIALIAS).convert('L'))
     
 plt.show()   
+
+# Image Plot : # Image Plot : https://github.com/prateekiiest/Building-Artificial-Neural-Networks/blob/master/Convolution%20Neural%20Network/plots/gray_flower.png
 
 
 # We then create the Model for the grayscale images
@@ -172,3 +176,5 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 
 plt.show()
+
+# Accuracy Plot : # Image Plot : https://github.com/prateekiiest/Building-Artificial-Neural-Networks/blob/master/Convolution%20Neural%20Network/plots/gray_plot.png
